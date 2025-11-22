@@ -1,0 +1,86 @@
+.navbar-brand{
+    font-family: "BASKERVILLE";
+    font-size: 60px;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 4px;
+}
+.nav-item {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-indent: 40%;
+    margin-right: 30px;
+}
+
+#navbarop ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-item img {
+    width: 474px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.cuerpo-noticias h1{
+    font-family: "Baskerville";
+    font-size: 60px;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 4px;
+    padding-left: 200px;
+}
+
+.cuerpo-noticias p{
+    font-family: "Times New Romans";
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    min-width: 400px;
+    max-width: 600px;
+    margin: 20px;
+
+}
+
+.card img {
+    width: 60%;             /* ocupa solo la mitad */
+    object-fit: cover;      /* recorta bien */
+}
+
+.encuesta {
+    max-width: 40%;      /* ancho máximo del formulario */
+    margin: 40px auto;     /* lo centra horizontalmente */
+    padding: 20px;         /* espacio interno */
+    background: rgb(219, 219, 219);
+    margin-bottom: 100px;
+}
+
+
+.foot ul{
+    background-color: #333;
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0;
+  align-items: center;
+  justify-content: center;
+   width: 100%;
+   height: 400px;
+   list-style: none;
+}
+
+.icon {
+  color: rgb(110, 110, 110);
+  font-size: 100px;
+  display: inline-block;
+  margin: 0 30px;
+  transition: 0.5s;
+}
