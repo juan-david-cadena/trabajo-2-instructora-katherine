@@ -52,14 +52,14 @@
 }
 
 .card img {
-    width: 60%;             /* ocupa solo la mitad */
-    object-fit: cover;      /* recorta bien */
+    width: 60%;
+    object-fit: cover;
 }
 
 .encuesta {
-    max-width: 40%;      /* ancho máximo del formulario */
-    margin: 40px auto;     /* lo centra horizontalmente */
-    padding: 20px;         /* espacio interno */
+    max-width: 40%;
+    margin: 40px auto;
+    padding: 20px;
     background: rgb(219, 219, 219);
     margin-bottom: 100px;
 }
